@@ -24,14 +24,14 @@ const Directory = () => {
       title: "sneakers",
       imageUrl:
         "https://images.pexels.com/photos/1102776/pexels-photo-1102776.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
-      routeUrl: "",
+      routeUrl: "sneakers",
     },
     {
       id: 4,
       title: "women collection",
       imageUrl:
         "https://images.pexels.com/photos/2212951/pexels-photo-2212951.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      routeUrl: "",
+      routeUrl: "women",
       size: "large",
     },
     {
@@ -39,7 +39,7 @@ const Directory = () => {
       title: "man collection",
       imageUrl:
         "https://images.pexels.com/photos/2896840/pexels-photo-2896840.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      routeUrl: "",
+      routeUrl: "men",
       size: "large",
     },
   ];

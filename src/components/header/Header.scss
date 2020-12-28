@@ -1,0 +1,35 @@
+.header {
+  height: 70px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 25px;
+  border-bottom: 1px solid lightgray;
+
+  .header__logoContainer {
+    width: 100px;
+    padding: 25px;
+  }
+
+  .header__logo {
+    width: 100px;
+  }
+
+  .header__options {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+
+    .header__option {
+      padding: 10px 15px;
+      text-decoration: none;
+      color: black;
+    }
+
+    .header__option:hover {
+      font-weight: bold;
+    }
+  }
+}
